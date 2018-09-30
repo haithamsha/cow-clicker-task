@@ -1,0 +1,33 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cow-img {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cow-img:hover {
+    cursor: pointer;
+}
+
+.cow-img-caption {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.cow-img-counter {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 110%;
+    text-align: center;
+}
